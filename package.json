@@ -1,0 +1,23 @@
+{
+  "name": "sal_code_portfolio",
+  "version": "1.0.0",
+  "description": "Sal Code personal portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "portfolio",
+    "html",
+    "css",
+    "javascript",
+    "staticwebsite"
+  ],
+  "author": "Sal Code",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/Salazar34/portfolio"
+  },
+  "readme": "README.md",
+  "license": "MIT"
+}
