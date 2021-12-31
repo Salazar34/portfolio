@@ -1,0 +1,30 @@
+:root {
+  //colors
+
+  //Typography
+  --font-family: 'Montserrat', sans-serif !important;
+  --text-base-size: 1em; //16px
+  --text-scale-ratio: 1.2; //Page's font dynamic management
+
+  --text-h4: calc(1em * var(--text-scale-ratio));
+  --text-h3: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio));
+  --text-h2: calc(
+    1em * var(--text-scale-ratio) * var(--text-scale-ratio) *
+      var(--text-scale-ratio)
+  );
+  --text-h1: calc(
+    1em * var(--text-scale-ratio) * var(--text-scale-ratio) *
+      var(--text-scale-ratio) * var(--text-scale-ratio)
+  );
+
+  //Borders
+  --border-radius: 40px;
+
+  //Font weight
+  --font-weight-bold: 700;
+  --font-weight-regular: 400;
+
+  //Line height
+  --line-height-header: 1.9;
+  --line-height-body: 1.5em;
+}

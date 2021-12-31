@@ -1,0 +1,47 @@
+:root {
+  --font-family: "Montserrat", sans-serif !important;
+  --text-base-size: 1em;
+  --text-scale-ratio: 1.2;
+  --text-h4: calc(1em * var(--text-scale-ratio));
+  --text-h3: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio));
+  --text-h2: calc(
+    1em * var(--text-scale-ratio) * var(--text-scale-ratio) *
+      var(--text-scale-ratio)
+  );
+  --text-h1: calc(
+    1em * var(--text-scale-ratio) * var(--text-scale-ratio) *
+      var(--text-scale-ratio) * var(--text-scale-ratio)
+  );
+  --border-radius: 40px;
+  --font-weight-bold: 700;
+  --font-weight-regular: 400;
+  --line-height-header: 1.9;
+  --line-height-body: 1.5em;
+}
+
+@font-face {
+  font-family: NunitoSansRegular;
+  src: url("../../../fonts/NunitoSans-Regular.ttf");
+  font-weight: var(--font-weight-regular);
+  font-style: normal;
+}
+@font-face {
+  font-family: NunitoSansBold;
+  src: url("../../../fonts/NunitoSans-Bold.ttf");
+  font-weight: var(--font-weight-bold);
+  font-style: normal;
+}
+body {
+  font-family: "NunitoSansRegular" !important;
+}
+
+.navbar {
+  padding: 1.3em !important;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+  font-weight: var(--fw-bold);
+}
+
+/*# sourceMappingURL=style.css.map */
