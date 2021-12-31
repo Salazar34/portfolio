@@ -1,0 +1,68 @@
+// Firsa Sans Regular
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('../../../fonts/fira/eot/FiraSans-Regular.eot');
+  src: url('../../../fonts/fira/eot/FiraSans-Regular.eot')
+      format('embedded-opentype'),
+    url('../../../fonts/fira/woff2/FiraSans-Regular.woff2') format('woff2'),
+    url('../../../fonts/fira/woff/FiraSans-Regular.woff') format('woff'),
+    url('../../../fonts/fira/ttf/FiraSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Firsa Sans Italic
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('../../../fonts/fira/eot/FiraSans-Italic.eot');
+  src: url('../../../fonts/fira/eot/FiraSans-Italic.eot')
+      format('embedded-opentype'),
+    url('../../../fonts/fira/woff2/FiraSans-Italic.woff2') format('woff2'),
+    url('../../../fonts/fira/woff/FiraSans-Italic.woff') format('woff'),
+    url('../../../fonts/fira/ttf/FiraSans-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+// Firsa Sans Bold
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('../../../fonts/fira/eot/FiraSans-Bold.eot');
+  src: url('../../../fonts/fira/eot/FiraSans-Bold.eot')
+      format('embedded-opentype'),
+    url('../../../fonts/fira/woff2/FiraSans-Bold.woff2') format('woff2'),
+    url('../../../fonts/fira/woff/FiraSans-Bold.woff') format('woff'),
+    url('../../../fonts/fira/ttf/FiraSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+// Firsa Sans BoldItalic
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('../../../fonts/fira/eot/FiraSans-BoldItalic.eot');
+  src: url('../../../fonts/fira/eot/FiraSans-BoldItalic.eot')
+      format('embedded-opentype'),
+    url('../../../fonts/fira/woff2/FiraSans-BoldItalic.woff2') format('woff2'),
+    url('../../../fonts/fira/woff/FiraSans-BoldItalic.woff') format('woff'),
+    url('../../../fonts/fira/ttf/FiraSans-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+h1 {
+  font-size: var(--text-h1) !important;
+  font-weight: var(--font-weight-regular);
+}
+h2 {
+  font-size: var(--text-h2) !important;
+  font-weight: var(--font-weight-regular);
+}
+h3 {
+  font-size: var(--text-h3) !important;
+  font-weight: var(--font-weight-bold);
+}
+h4 {
+  font-size: var(--text-h4) !important;
+  font-weight: var(--font-weight-regular);
+}

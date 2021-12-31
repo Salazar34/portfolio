@@ -1,8 +1,20 @@
 .navbar {
-  padding: 1.3em !important;
+  padding: 1.5em !important;
 }
 
 .navbar-brand {
   text-transform: uppercase;
-  font-weight: var(--fw-bold);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--text-h2) !important;
+}
+
+.nav-link {
+  color: var(--black) !important;
+  font-size: 18px;
+}
+
+.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }

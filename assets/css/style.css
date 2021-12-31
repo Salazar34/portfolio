@@ -1,5 +1,6 @@
 :root {
-  --font-family: "Montserrat", sans-serif !important;
+  --black: #000;
+  --font-family: "Fira Sans" !important;
   --text-base-size: 1em;
   --text-scale-ratio: 1.2;
   --text-h4: calc(1em * var(--text-scale-ratio));
@@ -20,28 +21,77 @@
 }
 
 @font-face {
-  font-family: NunitoSansRegular;
-  src: url("../../../fonts/NunitoSans-Regular.ttf");
-  font-weight: var(--font-weight-regular);
+  font-family: "Fira Sans";
+  src: url("../../../fonts/fira/eot/FiraSans-Regular.eot");
+  src: url("../../../fonts/fira/eot/FiraSans-Regular.eot") format("embedded-opentype"), url("../../../fonts/fira/woff2/FiraSans-Regular.woff2") format("woff2"), url("../../../fonts/fira/woff/FiraSans-Regular.woff") format("woff"), url("../../../fonts/fira/ttf/FiraSans-Regular.ttf") format("truetype");
+  font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: NunitoSansBold;
-  src: url("../../../fonts/NunitoSans-Bold.ttf");
-  font-weight: var(--font-weight-bold);
+  font-family: "Fira Sans";
+  src: url("../../../fonts/fira/eot/FiraSans-Italic.eot");
+  src: url("../../../fonts/fira/eot/FiraSans-Italic.eot") format("embedded-opentype"), url("../../../fonts/fira/woff2/FiraSans-Italic.woff2") format("woff2"), url("../../../fonts/fira/woff/FiraSans-Italic.woff") format("woff"), url("../../../fonts/fira/ttf/FiraSans-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Fira Sans";
+  src: url("../../../fonts/fira/eot/FiraSans-Bold.eot");
+  src: url("../../../fonts/fira/eot/FiraSans-Bold.eot") format("embedded-opentype"), url("../../../fonts/fira/woff2/FiraSans-Bold.woff2") format("woff2"), url("../../../fonts/fira/woff/FiraSans-Bold.woff") format("woff"), url("../../../fonts/fira/ttf/FiraSans-Bold.ttf") format("truetype");
+  font-weight: bold;
   font-style: normal;
 }
+@font-face {
+  font-family: "Fira Sans";
+  src: url("../../../fonts/fira/eot/FiraSans-BoldItalic.eot");
+  src: url("../../../fonts/fira/eot/FiraSans-BoldItalic.eot") format("embedded-opentype"), url("../../../fonts/fira/woff2/FiraSans-BoldItalic.woff2") format("woff2"), url("../../../fonts/fira/woff/FiraSans-BoldItalic.woff") format("woff"), url("../../../fonts/fira/ttf/FiraSans-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+h1 {
+  font-size: var(--text-h1) !important;
+  font-weight: var(--font-weight-regular);
+}
+
+h2 {
+  font-size: var(--text-h2) !important;
+  font-weight: var(--font-weight-regular);
+}
+
+h3 {
+  font-size: var(--text-h3) !important;
+  font-weight: var(--font-weight-bold);
+}
+
+h4 {
+  font-size: var(--text-h4) !important;
+  font-weight: var(--font-weight-regular);
+}
+
 body {
-  font-family: "NunitoSansRegular" !important;
+  font-family: "Fira Sans" !important;
+  font-weight: normal;
 }
 
 .navbar {
-  padding: 1.3em !important;
+  padding: 1.5em !important;
 }
 
 .navbar-brand {
   text-transform: uppercase;
-  font-weight: var(--fw-bold);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--text-h2) !important;
+}
+
+.nav-link {
+  color: var(--black) !important;
+  font-size: 18px;
+}
+
+.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /*# sourceMappingURL=style.css.map */

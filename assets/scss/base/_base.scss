@@ -1,17 +1,4 @@
-@font-face {
-  font-family: NunitoSansRegular;
-  src: url('../../../fonts/NunitoSans-Regular.ttf');
-  font-weight: var(--font-weight-regular);
-  font-style: normal;
-}
-
-@font-face {
-  font-family: NunitoSansBold;
-  src: url('../../../fonts/NunitoSans-Bold.ttf');
-  font-weight: var(--font-weight-bold);
-  font-style: normal;
-}
-
 body {
-  font-family: 'NunitoSansRegular' !important;
+  font-family: 'Fira Sans' !important;
+  font-weight: normal;
 }
