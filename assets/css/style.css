@@ -70,6 +70,10 @@ h4 {
   font-weight: var(--font-weight-regular);
 }
 
+p {
+  font-size: 18px !important;
+}
+
 body {
   font-family: "Fira Sans" !important;
   font-weight: normal;
@@ -108,7 +112,7 @@ body {
 }
 
 div.row.gap-5:nth-child(1) {
-  padding-top: 10rem;
+  padding-top: 5rem;
 }
 
 div.row.gap-5:nth-child(2) {
@@ -121,7 +125,28 @@ div.row.gap-5:nth-child(2) {
 
 .language-logo:hover {
   transform: scale(1.2);
-  transition: transform 1s;
+  transition: transform 200ms;
+  cursor: pointer;
+}
+
+.about-container {
+  padding-top: 3rem;
+}
+
+.about-container > h1:last-child {
+  padding-top: 7rem;
+}
+
+.card {
+  border: none !important;
+}
+
+.custom-rounded {
+  border-radius: 40px !important;
+}
+
+.footer-container {
+  background-color: var(--dark-background) !important;
 }
 
 /*# sourceMappingURL=style.css.map */
