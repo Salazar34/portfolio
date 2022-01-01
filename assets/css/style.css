@@ -107,4 +107,21 @@ body {
   font-size: 50px !important;
 }
 
+div.row.gap-5:nth-child(1) {
+  padding-top: 10rem;
+}
+
+div.row.gap-5:nth-child(2) {
+  padding-top: 5rem;
+}
+
+.language-logo {
+  transition: all 200ms ease-in 200ms;
+}
+
+.language-logo:hover {
+  transform: scale(1.2);
+  transition: transform 1s;
+}
+
 /*# sourceMappingURL=style.css.map */
