@@ -1,15 +1,17 @@
 .navbar {
   padding: 1.5em !important;
+  background-color: var(--dark-background) !important;
 }
 
 .navbar-brand {
   text-transform: uppercase;
   font-weight: var(--font-weight-bold);
   font-size: var(--text-h2) !important;
+  color: var(--white) !important;
 }
 
 .nav-link {
-  color: var(--black) !important;
+  color: var(--white) !important;
   font-size: 18px;
 }
 
