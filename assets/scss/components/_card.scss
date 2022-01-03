@@ -1,0 +1,27 @@
+@use '../abstracts/mixins' as *;
+
+.card {
+  max-width: 700px !important;
+  @include flex(row, center, center);
+  padding: 1rem;
+  margin-block: 3rem;
+}
+
+.card-image {
+  margin-inline: 1rem;
+}
+
+.card-title {
+  font-weight: var(--font-weight-bold);
+  color: var(--dark-background);
+}
+
+.card-text {
+  color: var(--dark-background);
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column !important;
+  }
+}

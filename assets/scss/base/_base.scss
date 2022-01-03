@@ -1,6 +1,11 @@
+::selection {
+  background-color: var(--red);
+}
+
 body {
   font-family: 'Fira Sans' !important;
   font-weight: normal;
+  min-height: 100vh !important;
 }
 
 @media (max-width: 768px) {

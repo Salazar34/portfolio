@@ -1,22 +1,22 @@
+@use '../abstracts/mixins' as *;
+
 .navbar {
-  padding: 1.5em !important;
   background-color: var(--dark-background) !important;
+  @include flex(row, center, center);
+  gap: 2rem;
 }
 
 .navbar-brand {
   text-transform: uppercase;
   font-weight: var(--font-weight-bold);
-  font-size: var(--text-h2) !important;
   color: var(--white) !important;
 }
 
-.nav-link {
+.navbar-item {
   color: var(--white) !important;
   font-size: 18px;
 }
 
-.navbar-center {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+.navbar-item:hover {
+  background-color: var(--dark-background) !important;
 }

@@ -9,7 +9,7 @@
     <!--Main CSS-->
     <link rel="stylesheet" href="./assets/css/style.css">
     <!--Vendors-->
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/bulma/css/bulma.min.css">
     <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <!--Animate CSS-->
     <link rel="stylesheet" href="./node_modules/animate.css/animate.min.css">
@@ -21,139 +21,78 @@
 </head>
 
 <body>
-    <!--Navbar-->
-    <nav class="navbar navbar-expand-lg justify-content-center">
-        <div class=" container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-center py-2" id="navbarCenteredExample">
-                <ul class="navbar-nav mb-2 mb-lg-0 gap-5">
-                    <li class="nav-item">
-                        <a class="navbar-brand" href="./index.html">Sal Code</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/projects.html">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/contacts.html" tabindex="-1" aria-disabled="true">Contacts</a>
-                    </li>
-                </ul>
+    <!-- ========== NAVBAR SECTION ========== -->
+    <nav class="navbar is-spaced" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="https://bulma.io">
+                <h2>Sal Code</h2>
+            </a>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a href="./index.html" class="navbar-item">Home</a>
+                <a href="./pages/projects.html" class="navbar-item">Projects</a>
+                <a href="./pages/contacts.html" class="navbar-item">Contacts</a>
             </div>
         </div>
     </nav>
-    <!--End Navbar-->
 
-    <!--Header-->
-    <header class="container-fluid d-flex flex-column justify-content-center page-header">
-        <!--Header-->
-        <div class="container d-flex flex-column align-items-center mt-4 pb-4">
-            <h1 class="big-header">👋Hello, I'm <span class="fw-bold mt-2 big-header">Sal Code</span></h1>
-            <h4 class="mt-4 mb-4"><em>"Don’t wait to lose something to conquer another"</em></h4>
-        </div>
-    </header>
+    <!-- ========== INTRODUCTION SECTION ========== -->
+    <div class="container-fluid introduction">
+        <h1>👋Hello, I'm <span style="font-weight: bold">Sal Code</span></h1>
+        <h5><em>" Words aren't facts, but facts are words. "</em></h5>
+    </div>
 
-    <div class="container-fluid d-flex flex-column align-items-center about-container">
-        <div class="card about-card my-4 shadow-lg p-4 custom-rounded" style="max-width: 900px;">
-            <div class="row g-0">
-                <div class="col-md-4">
-                    <img src="./assets/images/personal-logo.jpg" class="img-fluid rounded-circle pe-4"
-                        alt="Personal Logo">
-                </div>
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h1 class="card-title">Who am I?</h1>
-                        <p class="card-text">I'm an italian guy, Student of Computer Science and aspriant Web
-                            Developer.
-                            My passion is IT since I was 7 years old. I have a cat, Neve, since 2010. I'm a professional
-                            Tennis player since 2019 (started in 2015). I sometimes play some videogames. I started
-                            programming in 2019 as a hobby for spending some time during the force close period. Now
-                            it's my job and my main interest.
-                        </p>
+    <!-- ========== CARD SECTION ========== -->
+    <div class="columns is-centered">
+        <div class="card custom-rounded">
+            <div class="card-image">
+                <figure class="image">
+                    <img class="card-thumbnail is-rounded" src="./assets/images/personal-logo-rounded.png"
+                        alt="Placeholder image">
+                </figure>
+            </div>
+            <div class="card-content">
+                <div class="media">
+                    <div class="media-content">
+                        <h1 class="card-title">Who Am I?</h1>
                     </div>
                 </div>
-            </div>
-        </div>
-        <h1>Languages and Technologies I frequently use</h1>
-    </div>
 
-    <!--Knowledges-->
-    <div class="container-fluid d-flex flex-row justify-content-center">
-        <div class="row gap-5 d-flex flex-row align-items-center">
-            <div class="col">
-                <img src="./assets/images/javascript-logo.png" alt="JavaScript Logo" class="language-logo img-fluid"
-                    width="150">
-            </div>
-            <div class="col">
-                <img src="./assets/images/python-logo.png" alt="Python Logo" class="language-logo img-fluid"
-                    width="150">
-            </div>
-            <div class="col">
-                <img src="./assets/images/html-logo.png" alt="HTML Logo" class="language-logo img-fluid" width="150">
-            </div>
-            <div class="col">
-                <img src="./assets/images/css-logo.png" alt="CSS Logo" class="language-logo img-fluid" width="150">
-            </div>
-            <div class="col">
-                <img src="./assets/images/bootstrap-logo.svg" alt="Bootstrap Logo" class="language-logo img-fluid"
-                    width="150">
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid d-flex flex-row justify-content-center pb-4">
-        <div class="row gap-5 d-flex flex-row align-items-center">
-            <div class="col">
-                <img src="./assets/images/cloudflare-logo.png" alt="Cloudflare Logo" class="language-logo img-fluid"
-                    width="150">
-            </div>
-            <div class="col">
-                <img src="./assets/images/mongodb-logo.png" alt="MongoDB Logo" class="language-logo img-fluid"
-                    width="150">
-            </div>
-            <div class="col">
-                <img src="./assets/images/heroku-logo.png" alt="Heroku Logo" class="language-logo img-fluid"
-                    width="150">
-            </div>
-            <div class="col">
-                <img src="./assets/images/netlify-logo.png" alt="Netlify Logo" class="language-logo img-fluid"
-                    width="150">
-            </div>
-            <div class="col">
-                <img src="./assets/images/sass-logo.png" alt="Sass Logo" class="language-logo img-fluid" width="150">
+                <div class="content card-text">
+                    <p>I'm an italian guy, Student of Computer Science and aspriant Web
+                        Developer.
+                        My passion is IT since I was 7 years old. I have a cat, Neve, since 2010. I'm a professional
+                        Tennis player since 2019 (started in 2015). I sometimes play some videogames. I started
+                        programming in 2019 as a hobby for spending some time during the force close period. Now
+                        it's my job and my main interest.</p>
+                </div>
             </div>
         </div>
     </div>
 
-    <!--Footer-->
-    <div class="container-fluid footer-container mt-4">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
-            <p class="col-md-4 mb-0 text-light ps-4">Source code licensed under <span class="text-light fw-bold"><a
-                        href="https://github.com/Salazar34/portfolio/blob/master/LICENSE">MIT</a></span><br>
-                Website content licensed under <span><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC
-                        BY-NC-SA 4.0</a></span>
-            </p>
-            <a href="/"
-                class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-                <img src="./assets/images/personal-logo.jpg" alt="Personal Logo" class="img-fluid rounded-circle"
-                    width="80">
-            </a>
+    <!-- ========== FOOTER SECTION ========== -->
+    <footer class="custom-footer">
+        <div class="content has-text-centered">
+            <p>Design by <b>Sal Code</b><br><br>Source code under <a class="footer-link"
+                    href="https://github.com/Salazar34/portfolio/blob/master/LICENSE">MIT</a> license<br>Website
+                under <a class="footer-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">BY-NC-SA 4.0</a>
+                License</p>
+        </div>
+    </footer>
 
-            <ul class="nav col-md-4 justify-content-end pe-4">
-                <li class="nav-item pe-4"><a href="#" class="nav-link pe-4">Home</a></li>
-                <li class="nav-item pe-4"><a href="#" class="nav-link pe-4">Projects</a></li>
-                <li class="nav-item pe-4"><a href="#" class="nav-link pe-4">Contacts</a></li>
-            </ul>
-        </footer>
-    </div>
 
-    <!-- JavaScript Bundle with Popper -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script> -->
+    <!-- ========== FOOTER SECTION ========== -->
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+
 </body>
 
 </html>
