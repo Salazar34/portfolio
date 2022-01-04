@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <!--Animate CSS-->
     <link rel="stylesheet" href="./node_modules/animate.css/animate.min.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <!--Favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon/favicon-32x32.png">
@@ -37,9 +39,9 @@
 
         <div id="navbarBasicExample" class="navbar-menu">
             <div class="navbar-start">
-                <a href="./index.html" class="navbar-item">Home</a>
-                <a href="./pages/projects.html" class="navbar-item">Projects</a>
-                <a href="./pages/contacts.html" class="navbar-item">Contacts</a>
+                <a href="./index.html" class="navbar-item"><i class="fas fa-home"></i>&nbsp;Home</a>
+                <a href="./pages/projects.html" class="navbar-item"><i class="fas fa-laptop-code"></i>&nbsp;Projects</a>
+                <a href="./pages/contacts.html" class="navbar-item"><i class="far fa-envelope"></i>&nbsp;Contacts</a>
             </div>
         </div>
     </nav>
@@ -47,18 +49,13 @@
     <!-- ========== INTRODUCTION SECTION ========== -->
     <div class="container-fluid introduction">
         <h1>👋Hello, I'm <span style="font-weight: bold">Sal Code</span></h1>
-        <h5><em>" Words aren't facts, but facts are words. "</em></h5>
+        <h5><em>" Words do not correspond to deeds. But deeds correspond to words "</em></h5>
     </div>
 
     <!-- ========== CARD SECTION ========== -->
-    <div class="columns is-centered">
+    <div class="container is-centered card-container custom-rounded">
+        <img class="is-rounded" src="./assets/images/personal-logo-rounded.png" alt="Persona Logo" width="250">
         <div class="card custom-rounded">
-            <div class="card-image">
-                <figure class="image">
-                    <img class="card-thumbnail is-rounded" src="./assets/images/personal-logo-rounded.png"
-                        alt="Placeholder image">
-                </figure>
-            </div>
             <div class="card-content">
                 <div class="media">
                     <div class="media-content">
@@ -83,8 +80,8 @@
         <div class="content has-text-centered">
             <p>Design by <b>Sal Code</b><br><br>Source code under <a class="footer-link"
                     href="https://github.com/Salazar34/portfolio/blob/master/LICENSE">MIT</a> license<br>Website
-                under <a class="footer-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">BY-NC-SA 4.0</a>
-                License</p>
+                under <a class="footer-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA
+                    4.0</a></p>
         </div>
     </footer>
 

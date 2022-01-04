@@ -7,7 +7,7 @@
   //Typography
   --font-family: 'Fira Sans' !important;
   --text-base-size: 1em; //16px
-  --text-scale-ratio: 1.2; //Page's font dynamic management
+  --text-scale-ratio: 1.25; //Page's font dynamic management
 
   --text-h4: calc(1em * var(--text-scale-ratio));
   --text-h3: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio));

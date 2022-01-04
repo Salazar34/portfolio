@@ -1,5 +1,15 @@
+@use '../abstracts/mixins' as *;
+
 .custom-rounded {
   border-radius: 80px !important;
+}
+
+.centered {
+  @include flex(column, center, center);
+}
+
+.flex-row {
+  flex-direction: row !important;
 }
 
 .bck-wrapper {

@@ -1,10 +1,11 @@
 @use '../abstracts/mixins' as *;
 
 .introduction {
+  @include flex(column, center, center);
   background-color: var(--dark-background);
   padding-block: 1rem;
   color: var(--white);
-  @include flex(column, center, center);
+  margin-bottom: 3rem;
 }
 
 .introduction h5 {
