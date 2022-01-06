@@ -1,6 +1,6 @@
 @use '../abstracts/mixins' as *;
 
-.card {
+div.card-container > div.card.custom-rounded {
   background: var(--white) !important;
   box-shadow: none !important;
 }
@@ -25,6 +25,10 @@
 
 .card-text {
   color: var(--dark-background);
+}
+
+.true-card {
+  max-width: 100px;
 }
 
 @media (max-width: 768px) {

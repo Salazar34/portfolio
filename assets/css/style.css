@@ -52,6 +52,7 @@
   font-style: italic;
 }
 h1 {
+  color: var(--dark-background);
   font-size: var(--text-h1) !important;
   font-weight: var(--font-weight-regular);
 }
@@ -62,16 +63,19 @@ h2 {
 }
 
 h3 {
+  color: var(--dark-background);
   font-size: var(--text-h3) !important;
   font-weight: var(--font-weight-bold);
 }
 
 h4 {
+  color: var(--dark-background);
   font-size: var(--text-h4) !important;
   font-weight: var(--font-weight-regular);
 }
 
 p {
+  color: var(--dark-background);
   font-size: 18px !important;
 }
 
@@ -101,6 +105,7 @@ body {
 }
 .navbar {
   background-color: var(--dark-background) !important;
+  color: var(--white) !important;
   display: flex !important;
   flex-direction: row !important;
   align-items: center !important;
@@ -109,6 +114,7 @@ body {
 }
 
 .navbar-brand {
+  color: var(--white) !important;
   text-transform: uppercase;
   font-weight: var(--font-weight-bold);
   color: var(--white) !important;
@@ -134,12 +140,33 @@ body {
   justify-content: center !important;
 }
 
+.content {
+  line-height: 1.7 !important;
+  color: var(--dark-background);
+}
+
 .flex-row {
   flex-direction: row !important;
 }
 
 .bck-wrapper {
   background-color: var(--dark-background);
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.projects-wrapper {
+  max-width: 450px !important;
+}
+
+.title {
+  color: var(--dark-background);
+}
+
+.footer-inner {
+  padding-block: 1rem;
 }
 
 .custom-footer {
@@ -155,7 +182,11 @@ a.footer-link:hover {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.card {
+.footer-text {
+  color: var(--white);
+}
+
+div.card-container > div.card.custom-rounded {
   background: var(--white) !important;
   box-shadow: none !important;
 }
@@ -185,6 +216,10 @@ a.footer-link:hover {
   color: var(--dark-background);
 }
 
+.true-card {
+  max-width: 100px;
+}
+
 @media (max-width: 768px) {
   .card-container {
     flex-direction: column !important;
@@ -197,12 +232,49 @@ a.footer-link:hover {
   justify-content: center !important;
   background-color: var(--dark-background);
   padding-block: 1rem;
-  color: var(--white);
   margin-bottom: 3rem;
+}
+
+.introduction h1,
+.introduction h5 {
+  color: var(--white);
 }
 
 .introduction h5 {
   margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.knowledges {
+  padding-block: 3rem;
+}
+
+.knowledges-wrapper {
+  justify-content: center !important;
+  align-items: center !important;
+  padding-top: 2.5rem;
+  gap: 20rem;
+}
+
+.fa-user-graduate,
+.fa-code {
+  font-size: 6rem;
+  margin-block: 0.3em;
+  color: var(--red);
+}
+
+.single-knowledge {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-height: 450px;
+  flex-basis: 0 !important;
+}
+
+.single-knowledge p {
+  margin-top: 1em;
+  width: 40ch;
 }
 
 /*# sourceMappingURL=style.css.map */

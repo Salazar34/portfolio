@@ -1,0 +1,30 @@
+@use '../abstracts/mixins' as *;
+
+.knowledges {
+  padding-block: 3rem;
+}
+
+.knowledges-wrapper {
+  justify-content: center !important;
+  align-items: center !important;
+  padding-top: 2.5rem;
+  gap: 20rem;
+}
+
+.fa-user-graduate,
+.fa-code {
+  font-size: 6rem;
+  margin-block: 0.3em;
+  color: var(--red);
+}
+
+.single-knowledge {
+  @include flex(column, center, center);
+  min-height: 450px;
+  flex-basis: 0 !important;
+}
+
+.single-knowledge p {
+  margin-top: 1em;
+  width: 40ch;
+}

@@ -4,10 +4,15 @@
   @include flex(column, center, center);
   background-color: var(--dark-background);
   padding-block: 1rem;
-  color: var(--white);
   margin-bottom: 3rem;
+}
+
+.introduction h1,
+.introduction h5 {
+  color: var(--white);
 }
 
 .introduction h5 {
   margin-top: 1rem;
+  padding-bottom: 1rem;
 }

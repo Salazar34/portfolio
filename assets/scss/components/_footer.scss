@@ -1,3 +1,7 @@
+.footer-inner {
+  padding-block: 1rem;
+}
+
 .custom-footer {
   background-color: var(--dark-background);
   color: var(--white);
@@ -9,4 +13,8 @@ a.footer-link:hover {
   color: var(--red) !important;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;
+}
+
+.footer-text {
+  color: var(--white);
 }

@@ -51,6 +51,7 @@
 }
 
 h1 {
+  color: var(--dark-background);
   font-size: var(--text-h1) !important;
   font-weight: var(--font-weight-regular);
 }
@@ -59,14 +60,17 @@ h2 {
   font-weight: var(--font-weight-regular);
 }
 h3 {
+  color: var(--dark-background);
   font-size: var(--text-h3) !important;
   font-weight: var(--font-weight-bold);
 }
 h4 {
+  color: var(--dark-background);
   font-size: var(--text-h4) !important;
   font-weight: var(--font-weight-regular);
 }
 p {
+  color: var(--dark-background);
   font-size: 18px !important;
 }
 a {

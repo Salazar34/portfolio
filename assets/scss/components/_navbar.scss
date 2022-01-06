@@ -2,11 +2,13 @@
 
 .navbar {
   background-color: var(--dark-background) !important;
+  color: var(--white) !important;
   @include flex(row, center, center);
   gap: 2rem;
 }
 
 .navbar-brand {
+  color: var(--white) !important;
   text-transform: uppercase;
   font-weight: var(--font-weight-bold);
   color: var(--white) !important;

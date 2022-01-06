@@ -8,10 +8,27 @@
   @include flex(column, center, center);
 }
 
+.content {
+  line-height: 1.7 !important;
+  color: var(--dark-background);
+}
+
 .flex-row {
   flex-direction: row !important;
 }
 
 .bck-wrapper {
   background-color: var(--dark-background);
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.projects-wrapper {
+  max-width: 450px !important;
+}
+
+.title {
+  color: var(--dark-background);
 }
