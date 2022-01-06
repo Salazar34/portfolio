@@ -2,7 +2,7 @@
   "name": "sal_code_portfolio",
   "version": "1.0.0",
   "description": "Sal Code personal portfolio",
-  "main": "index.js",
+  "main": "",
   "scripts": {
     "test": "npm run format && npm run lint && npm run compile",
     "format": "npx prettier --write assets/**/*.{js,css,scss}",
