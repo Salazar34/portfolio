@@ -8,7 +8,8 @@
     "format": "npx prettier --write assets/**/*.{js,css,scss}",
     "lint": "npx eslint",
     "compile": "npx sass --style=compressed assets/scss/main.scss:assets/css/style.css",
-    "watch": "npx sass --watch assets/scss/main.scss:assets/css/style.css"
+    "watch": "npx sass --watch assets/scss/main.scss:assets/css/style.css",
+    "server": "npx live-server"
   },
   "keywords": [
     "portfolio",
@@ -41,6 +42,7 @@
   "devDependencies": {
     "eslint": "^8.5.0",
     "eslint-config-prettier": "^8.3.0",
+    "live-server": "^1.2.1",
     "prettier": "^2.5.1"
   }
 }

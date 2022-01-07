@@ -17,6 +17,10 @@
   flex-direction: row !important;
 }
 
+.fw-bold {
+  font-weight: var(--font-weight-bold) !important;
+}
+
 .bck-wrapper {
   background-color: var(--dark-background);
 }

@@ -9,10 +9,14 @@
   margin-top: 3rem;
 }
 
-a.footer-link:hover {
-  color: var(--red) !important;
-  transform: scaleX(0);
-  transition: all 0.3s ease-in-out 0s;
+a.footer-link {
+  color: rgb(71, 144, 240) !important;
+
+  &:hover {
+    color: var(--red) !important;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+  }
 }
 
 .footer-text {
