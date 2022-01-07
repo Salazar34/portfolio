@@ -2,7 +2,7 @@
   --black: #000;
   --white: #fff;
   --red: #a6171b;
-  --dark-background: #0f0e17;
+  --dark-background: #1b1b1b;
   --font-family: "Fira Sans" !important;
   --text-base-size: 1em;
   --text-scale-ratio: 1.25;
@@ -316,6 +316,12 @@ div.card-container > div.card.custom-rounded {
 
 .skill-images {
   gap: 3rem;
+}
+
+.submit-button:hover {
+  background-color: var(--red) !important;
+  transition: all 0.3s ease-in-out 0s;
+  color: #fff !important;
 }
 
 /*# sourceMappingURL=style.css.map */
