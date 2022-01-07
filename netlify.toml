@@ -1,0 +1,6 @@
+[[headers]]
+    for = "/*"
+    [headers.value]
+        Content-Security-Policy = "default-src 'self' cdn.jsdelivr.net code.jquery.com; style-src 'self' 'unsafe-inline'; font-src 'self' cdn.jsdelivr.net; script-src 'self' code.jquery.com 'unsafe-inline'"
+        X-Frame-Options = "DENY"
+        X-Content-Type-Options = "nosniff"
