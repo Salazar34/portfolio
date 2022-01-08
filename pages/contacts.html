@@ -58,11 +58,11 @@
 
     <!-- ========== TECHNOLOGIES SECTION ========== -->
     <div class="container centered">
-        <form name="contact" action="" data-netlify="true">
+        <form name="contact" method="POST" action="" data-netlify-recaptcha="true" data-netlify="true">
             <div class="field">
                 <label class="label">Name / Username</label>
                 <div class="control has-icons-left has-icons-right">
-                    <input class="input" type="text" placeholder="Your name / Username">
+                    <input class="input" name="Name" type="text" placeholder="Your name / Username">
                     <span class="icon is-small is-left">
                         <i class="fas fa-user"></i>
                     </span>
@@ -72,7 +72,7 @@
             <div class="field">
                 <label class="label">Email</label>
                 <div class="control has-icons-left has-icons-right">
-                    <input class="input" type="email" placeholder="Email input">
+                    <input class="input" name="E-mail" type="email" placeholder="Email input">
                     <span class="icon is-small is-left">
                         <i class="fas fa-envelope"></i>
                     </span>
@@ -81,9 +81,10 @@
             <div class="field">
                 <label class="label">Message</label>
                 <div class="control">
-                    <textarea class="textarea" placeholder="Your message text"></textarea>
+                    <textarea class="textarea" name="message" placeholder="Your message text"></textarea>
                 </div>
             </div>
+            <div class="field" data-netlify-recaptcha="true"></div>
             <div class="field is-grouped">
                 <div class="control">
                     <button class="button submit-button">Submit</button>

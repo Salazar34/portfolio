@@ -324,4 +324,10 @@ div.card-container > div.card.custom-rounded {
   color: #fff !important;
 }
 
+.input:focus,
+.textarea:focus {
+  border-color: var(--red) !important;
+  box-shadow: 0 0 0 0 0.125em var(--red) !important;
+}
+
 /*# sourceMappingURL=style.css.map */

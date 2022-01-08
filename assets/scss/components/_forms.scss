@@ -1,0 +1,5 @@
+.input:focus,
+.textarea:focus {
+  border-color: var(--red) !important;
+  box-shadow: 0 0 0 0 0.125em var(--red) !important;
+}
