@@ -6,6 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Sal Code</title>
+    <!--Meta tags-->
+    <meta name="keywords"
+        content="salcode webdeveloper web html css javascirpt react reactjs angular angularjs developer student italy italianguy fromitaly">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="description"
+        content="Student and Developer from Italy. Currently studying web development as a Full-Stack Web Dev. I work with modern technologies and frameworks, like Bulma, Bootstrap, ReactJS and AngularJS. I can build cool and modern websites.">
     <!--Main CSS-->
     <link rel="stylesheet" href="./assets/css/style.css">
     <!--Vendors-->
@@ -28,10 +34,10 @@
     <!-- ========== NAVBAR SECTION ========== -->
     <nav class="navbar is-spaced" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-            <a class="navbar-item" href="https://bulma.io">
+            <a class="navbar-item" href="https://salcode.xyz">
                 <h2>Sal Code</h2>
             </a>
-            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+            <a role="button" class="navbar-burger" id="burger" aria-label="menu" aria-expanded="false"
                 data-target="navbarBasicExample">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
@@ -39,7 +45,7 @@
             </a>
         </div>
 
-        <div id="navbarBasicExample" class="navbar-menu">
+        <div id="navbarBasicExample" class="navbar-menu" id="nav-links">
             <div class="navbar-start">
                 <a href="./index.html" class="navbar-item"><i class="fas fa-home"></i>&nbsp;Home</a>
                 <a href="./pages/projects.html" class="navbar-item"><i class="fas fa-laptop-code"></i>&nbsp;Projects</a>

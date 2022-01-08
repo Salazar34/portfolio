@@ -134,10 +134,31 @@ a:hover {
   font-size: 18px;
 }
 
+.navbar-burger {
+  transform: none !important;
+}
+.navbar-burger > span {
+  color: var(--white);
+}
+
 .navbar-item:hover {
   background-color: var(--dark-background) !important;
 }
 
+div.navbar-menu.is-active {
+  background-color: var(--dark-background);
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    gap: 0;
+    flex-direction: column !important;
+  }
+
+  .navbar-burger {
+    flex-direction: column;
+  }
+}
 .custom-rounded {
   border-radius: 80px !important;
 }
@@ -178,6 +199,19 @@ a:hover {
   color: var(--dark-background);
 }
 
+@media (max-width: 768px) {
+  a.navbar-burger {
+    transform: none;
+  }
+  a.navbar-burger > span {
+    background-color: var(--white);
+    font-weight: var(--font-weight-bold);
+  }
+
+  .navbar-brand {
+    margin-top: 1.2rem;
+  }
+}
 .footer-inner {
   padding-block: 1rem;
 }
@@ -239,6 +273,7 @@ div.card-container > div.card.custom-rounded {
 @media (max-width: 768px) {
   .card-container {
     flex-direction: column !important;
+    box-shadow: none !important;
   }
 }
 .introduction {
@@ -261,6 +296,15 @@ div.card-container > div.card.custom-rounded {
   padding-bottom: 1rem;
 }
 
+@media (max-width: 768px) {
+  .introduction {
+    padding-block: 2em;
+  }
+  .introduction h5 {
+    max-width: 320px;
+    text-align: center;
+  }
+}
 .knowledges {
   padding-block: 3rem;
 }
@@ -318,6 +362,26 @@ div.card-container > div.card.custom-rounded {
   gap: 3rem;
 }
 
+@media (max-width: 768px) {
+  .skills {
+    text-align: center;
+  }
+
+  .skill-header h2 {
+    text-align: center;
+  }
+
+  .single-skill {
+    gap: 0;
+  }
+  .single-skill:last-child {
+    border-bottom: none;
+  }
+
+  .skill-images {
+    display: none;
+  }
+}
 .submit-button:hover {
   background-color: var(--red) !important;
   transition: all 0.3s ease-in-out 0s;

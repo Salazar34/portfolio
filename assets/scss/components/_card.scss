@@ -34,5 +34,6 @@ div.card-container > div.card.custom-rounded {
 @media (max-width: 768px) {
   .card-container {
     flex-direction: column !important;
+    box-shadow: none !important;
   }
 }

@@ -16,3 +16,13 @@
   margin-top: 1rem;
   padding-bottom: 1rem;
 }
+
+@media (max-width: 768px) {
+  .introduction {
+    padding-block: 2em;
+    & h5 {
+      max-width: 320px;
+      text-align: center;
+    }
+  }
+}

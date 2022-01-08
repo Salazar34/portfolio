@@ -36,3 +36,16 @@
 .title {
   color: var(--dark-background);
 }
+
+@media (max-width: 768px) {
+  a.navbar-burger {
+    transform: none;
+    & > span {
+      background-color: var(--white);
+      font-weight: var(--font-weight-bold);
+    }
+  }
+  .navbar-brand {
+    margin-top: 1.2rem;
+  }
+}

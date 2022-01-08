@@ -19,6 +19,27 @@
   font-size: 18px;
 }
 
+.navbar-burger {
+  transform: none !important;
+  & > span {
+    color: var(--white);
+  }
+}
+
 .navbar-item:hover {
   background-color: var(--dark-background) !important;
+}
+
+div.navbar-menu.is-active {
+  background-color: var(--dark-background);
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    gap: 0;
+    flex-direction: column !important;
+  }
+  .navbar-burger {
+    flex-direction: column;
+  }
 }
