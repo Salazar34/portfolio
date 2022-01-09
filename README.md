@@ -18,32 +18,38 @@ The website has been created using only
 
 I'm just thinking of making new features to improve speed, security, performances and UI/UX.
 
-## Contribute to the project
+# Contribute to the project
 
 If you want to help me maintain the project, find bugs and help me solve some issues, fell free to put your hand on the project.
 
 > ❗❗ Before doing anything else, **please read the [Code of Conduct](https://github.com/Salazar34/portfolio/blob/master/CODE_OF_CONDUCT.md).** It's very important that every user respects others, the project and some basic rules to keep our community safe. **It's free and help everyone.**
 
-### To start contributing to the project:
+## To start contributing to the project:
 
 1. Fork the repository or download locally on your machine the source code.
 
 ```bash
-$ git clone https://github.com/Salazar34/portfolio.git
+git clone https://github.com/Salazar34/portfolio.git
+```
 
-$ cd portfolio
+```bash
+cd portfolio
+```
 
-$ npm ci
+```bash
+npm ci
+```
 
-$ npm run server
+```bash
+npm run server
 ```
 
 2. Once you've made your changes, before committing the change to GitHub, **run the test command.**
 
 ```bash
-$ npm run test
+npm run test
 ```
 
-### If you find a bug in the project:
+## If you find a bug in the project:
 
 1. Open an issue and, if you know how to solve that bug, solve it. Wait until the review.
