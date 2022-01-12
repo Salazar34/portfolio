@@ -52,4 +52,4 @@ npm run test
 
 ## If you find a bug in the project:
 
-1. Open an issue and, if you know how to solve that bug, solve it. Wait until the review.
+1. Open an issue and, if you know how to solve that bug, solve it and then wait until the review.
