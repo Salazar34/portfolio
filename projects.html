@@ -13,23 +13,23 @@
     <meta name="description"
         content="Student and Developer from Italy. Currently studying web development as a Full-Stack Web Dev. I work with modern technologies and frameworks, like Bulma, Bootstrap, ReactJS and AngularJS. I can build cool and modern websites.">
     <!--Main CSS-->
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <!--Vendors-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
     <!--Favicon-->
-    <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="../assets/images/favicon/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/images/favicon/site.webmanifest">
 </head>
 
 <body>
     <!-- ========== NAVBAR SECTION ========== -->
     <nav class="navbar is-spaced" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-            <a class="navbar-item" href="../index.html">
+            <a class="navbar-item" href="./index.html">
                 <h2>Sal Code</h2>
             </a>
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
@@ -42,7 +42,7 @@
 
         <div id="navbarBasicExample" class="navbar-menu">
             <div class="navbar-start">
-                <a href="../index.html" class="navbar-item"><i class="fas fa-home"></i>&nbsp;Home</a>
+                <a href="./index.html" class="navbar-item"><i class="fas fa-home"></i>&nbsp;Home</a>
                 <a href="./projects.html" class="navbar-item"><i class="fas fa-laptop-code"></i>&nbsp;Projects</a>
                 <a href="./technologies.html" class="navbar-item"><i class="fas fa-cogs"></i>&nbsp;Technologies I
                     use</a>
@@ -53,45 +53,35 @@
 
     <!-- ========== INTRODUCTION SECTION ========== -->
     <div class="container-fluid introduction">
-        <h1>📩Get in touch with me</h1>
-        <h5>Compile the form down below if you want to get in touch with me.</h5>
+        <h1>🚀Personal Projects</h1>
+        <h5>Some interesting projects I've started in my free time.</h5>
     </div>
 
-    <!-- ========== TECHNOLOGIES SECTION ========== -->
-    <div class="container centered">
-        <form name="contact" method="POST" action="" data-netlify-recaptcha="true" data-netlify="true">
-            <div class="field">
-                <label class="label">Name / Username</label>
-                <div class="control has-icons-left has-icons-right">
-                    <input class="input" name="Name" type="text" placeholder="Your name / Username">
-                    <span class="icon is-small is-left">
-                        <i class="fas fa-user"></i>
-                    </span>
+    <!-- ========== PROJECTS SECTION ========== -->
+    <div class="container is-centered projects-wrapper">
+        <div class="card true-card">
+            <div class="card-image">
+                <figure class="image is-square">
+                    <img src="./assets/images/true_logo.png" alt="True Bot Logo" width="250">
+                </figure>
+            </div>
+            <div class="card-content">
+                <div class="media">
+                    <div class="media-content">
+                        <p class="title is-4">True Bot</p>
+                        <p class="subtitle is-6"><a href="https://twitter.com/TrueBot10">@TrueBot10</a></p>
+                    </div>
+                </div>
+                <div class="content">
+                    True Bot is a <b>Discord integration (bot application)</b> built using with <b>JavaScript</b>. It
+                    has been built to simply user's experience on the platform with <b>easy to use, customizable and
+                        modern</b> commands and user interfaces. During my free time, I enjoy my self playing around
+                    with the API to build new features for the bot, while trying to get a feedback from users.
+                    <br><br>
+                    Go to <b><a href="https://github.com/True-Team/True-Bot">True Bot repository</a></b>
                 </div>
             </div>
-
-            <div class="field">
-                <label class="label">Email</label>
-                <div class="control has-icons-left has-icons-right">
-                    <input class="input" name="Email" type="email" placeholder="Email input">
-                    <span class="icon is-small is-left">
-                        <i class="fas fa-envelope"></i>
-                    </span>
-                </div>
-            </div>
-            <div class="field">
-                <label class="label">Message</label>
-                <div class="control">
-                    <textarea class="textarea" name="message" placeholder="Your message text"></textarea>
-                </div>
-            </div>
-            <div class="field" data-netlify-recaptcha="true"></div>
-            <div class="field is-grouped">
-                <div class="control">
-                    <button class="button submit-button">Submit</button>
-                </div>
-            </div>
-        </form>
+        </div>
     </div>
 
     <!-- ========== FOOTER SECTION ========== -->
@@ -106,10 +96,10 @@
 
 
     <!-- ========== FOOTER SECTION ========== -->
-    <!-- <script src="../node_modules/jquery/dist/jquery.min.js"></script> -->
+    <!-- <script src="./node_modules/jquery/dist/jquery.min.js"></script> -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="../assets/js/main.js"></script>
+    <script src="./assets/js/main.js"></script>
 
 </body>
 
